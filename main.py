@@ -1,7 +1,8 @@
 from fastapi import FastAPI, HTTPException
 from fastapi.encoders import jsonable_encoder
 from pydantic import BaseModel
-from typing import Optional, Literal
+from typing import Optional
+from typing_extensions import Literal
 from uuid import uuid4
 import json
 import os
